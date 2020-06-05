@@ -1,4 +1,4 @@
 FROM semaphoreci/android:29-flutter
 
-RUN flutter version v1.12.13+hotfix.9
+RUN flutter version 1.17.1
 
