@@ -1,5 +1,6 @@
 FROM semaphoreci/android:29-flutter
 
 RUN flutter upgrade
-RUN flutter version 1.20.3
+RUN cd /opt/flutter && git checkout 2.2.2
+RUN flutter doctor
 
